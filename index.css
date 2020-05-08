@@ -15,10 +15,13 @@ body {
 	font-family: 'Shadows Into Light', cursive;
 }
 
+#carouselSlidesOnly {
+	border-radius: 15px;
+	width: 40%
+}
 .box {
    display: flex;
    align-items:center;
-   
 }
 
 .lead {
