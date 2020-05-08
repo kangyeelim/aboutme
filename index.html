@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+<link rel="stylesheet" href="index.css">
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 <html>
     <head>
         <title>My Webpage</title>
@@ -9,7 +10,7 @@
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow">
 	    <div class="container">
-			<a class="navbar-brand" href="#">About Me</a>
+			<a class="navbar-brand" href="#"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -21,27 +22,70 @@
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">About</a>
+						<a class="nav-link" href="#">Education</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Services</a>
+						<a class="nav-link" href="#">Experiences</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
+						<a class="nav-link" href="#">Contact Me</a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
+    
     <body>
 		<div class="container">
 			<div class="card border-0 shadow my-5">
-				<div class="card-body p-5">
-					<h1 class="font-weight-light">Fixed Full Page Background Image</h1>
-					<p class="lead">In this snippet, the background image is fixed to the body element. Content on the page will scroll, but the image will remain in a fixed position!</p>
-					<p class="lead">Scroll down...</p>
-					<div style="height: 700px"></div>
-					<p class="lead mb-0">You've reached the end!</p>
+				<div class="card-body p-5">	
+					<div class="box">
+						<img id="avatar-photo" src="images/greenery.jpg" alt="Profile Picture">
+						<div style="width: 50px"></div>
+						<h1 id="motto">Live Life, Love Life</h1>
+					</div>
+					<div style="height: 30px"></div>
+					<h3 class="font-weight-light">Hi! I am Lim Kang Yee.</h3>
+					<p class="lead">I am a Computer Science student based in Singapore. 
+					I aspire to become a software engineer to be able to help solve real-world problems
+					with industry-driven solutions. I love interacting with others because I am interested 
+					in social issues and the different perspectives that people with different experiences
+					can share. I hope to be able to bring about positive changes in the future through my work.</p>
+					<div style="height: 30px"></div>
+					<div class="container">
+						<div class="row">
+							<div class="col-sm">
+								<div class="card" style="width: 18rem;">
+									<img src="images/work.png" class="card-img-top" alt="Education">
+									<div class="card-body">
+										<h5 class="card-title">Education</h5>
+										<p class="card-text">Get to know my education journey, qualifications and projects so far.</p>
+										<a href="#" class="btn btn-primary">Learn more</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm">
+								<div class="card" style="width: 18rem;">
+									<img src="images/event.jpg" class="card-img-top" alt="Education">
+									<div class="card-body">
+										<h5 class="card-title">Experiences</h5>
+										<p class="card-text">Get to know my experiences in co-cirricular activities beyond my academic work.</p>
+										<a href="#" class="btn btn-primary">Learn more</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm">
+								<div class="card" style="width: 18rem;">
+									<img src="images/contactme1.png" class="card-img-top" alt="Education">
+									<div class="card-body">
+										<h5 class="card-title">Contact me</h5>
+										<p class="card-text">Get in touch with me personally.</p>
+										<a href="#" class="btn btn-primary">Learn more</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

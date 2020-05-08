@@ -1,0 +1,27 @@
+body {
+  background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#avatar-photo {
+	border-radius: 15px;
+	width: 40%;
+}
+
+#motto {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.box {
+   display: flex;
+   align-items:center;
+   
+}
+
+.lead {
+	margin-top: 30px;
+}
+
