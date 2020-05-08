@@ -1,2 +1,2 @@
-# aboutme
-A simple website about me.
+# AboutMe
+A simple website about me. 
