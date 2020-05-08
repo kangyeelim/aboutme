@@ -6,11 +6,6 @@ body {
   -o-background-size: cover;
 }
 
-#avatar-photo {
-	border-radius: 15px;
-	width: 40%;
-}
-
 #motto {
 	font-family: 'Shadows Into Light', cursive;
 }
