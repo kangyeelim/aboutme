@@ -8,4 +8,4 @@ In the website, I have detailed my:
 	- co-cirricular activities
 	- projects
 	
-Checkout the website: https://kangyeelim.github.io/aboutme/index.html
+Checkout the website: https://kangyeelim.github.io/aboutme/
