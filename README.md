@@ -7,3 +7,5 @@ In the website, I have detailed my:
 	- overseas trips
 	- co-cirricular activities
 	- projects
+	
+Checkout the website: https://kangyeelim.github.io/aboutme/index.html
