@@ -10,12 +10,24 @@ body {
 	font-family: 'Shadows Into Light', cursive;
 }
 
+#smaller-highlight {
+  user-select: auto;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #fff5ba 65%);
+  display: inline;
+}
+
+.u--highlight {
+  user-select: auto;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #ffd4b8 65%);
+  display: inline;
+}
+
 #carouselSlidesOnly {
-	width: 100%
+	width: 100%;
 }
 
 #below-motto {
-	text-align: right
+	text-align: right;
 }
 
 .box {
@@ -27,3 +39,22 @@ body {
 	margin-top: 30px;
 }
 
+.d-block {
+  border-radius: 5px;
+}
+
+.link {
+  color: black;
+  fontSize: 18;
+  text-decoration: underline;
+  text-decoration-color: #fff5ba;
+  font-weight: bold;
+}
+
+
+
+
+
+.odd-section {
+  background-color: #f7f7f7;
+}
