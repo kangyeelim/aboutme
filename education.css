@@ -9,3 +9,15 @@ th, td {
 .sch-logo {
 	width: 20%
 }
+
+.u--highlight {
+  user-select: auto;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #ffd4b8 65%);
+  display: inline;
+}
+
+#smaller-highlight {
+  user-select: auto;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #fff5ba 65%);
+  display: inline;
+}
