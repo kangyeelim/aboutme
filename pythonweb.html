@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="illuminatesg.css">
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<html>
+    <head>
+        <title>My Webpage</title>
+    </head>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow">
+	    <div class="container">
+			<a class="navbar-brand" href="#"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="education.html">Education
+
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="experience.html">Experiences
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contactme.html">Contact Me</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	 <body>
+		<div class="container">
+			<div class="card border-0 shadow my-5">
+				<div class="card-body p-5">
+  				<h1 class="font-weight-light" style="text-align:center; margin-bottom:30px;"><span class="u--highlight">Flask/Django Web Applications</span></h1>
+          <p class="lead" style="margin-bottom:30px;">These are projects that I started on when doing the course CS50 Web Programming with Python and Javascript by Harvard on EdX which focuses
+          on the Flask and Django frameworks.</p>
+          <h3 class="font-weight-light" style="text-align:center; margin-bottom:30px;"<span class="u--highlight" id="smaller-highlight">Simple Book Review</span></h3>
+          <img style="height:600px" src="images/bookreview.png" class="d-block w-100" alt="...">
+  				<!--description-->
+  				<p class="lead">This is a book review web application that allows users to login and make book reviews and rate books that they have read or find information on
+          books. The app makes use of some APIs like GoogleBooks, Goodreads, Open Library to retrieve book informations. It was made using the Flask micro-framework and uses
+          PostgreSQL to store user information and data.</p>
+          <h5 class="font-weight-light">Check out the repository for it here:</h5>
+  				<div style="height:10px"></div>
+  				<!--Social Media Icons -->
+  				<div class="box">
+  					<a class="fa fa-github fa-lg" style="user-select: auto;" href="https://github.com/kangyeelim/simplebookreviews"></a>
+  				</div>
+          <h3 class="font-weight-light" style="text-align:center; margin-bottom:30px; margin-top:30px;"><span class="u--highlight" id="smaller-highlight">FlaskSlack</span></h3>
+          <img style="height:600px" src="images/flack.png" class="d-block w-100" alt="...">
+  				<!--description-->
+  				<p class="lead">This is a simple chat application similar to slack. Once a user creates a username, it allows users to join any chat rooms available or to
+          create a new chat room. The chatroom would update in real time when new users join and load the previous 100 messages. It also saves the state of the web app such
+          that when the browser is closed, the same page would be opened again. It is created using socketIO and using the flask
+          micro-framework.</p>
+          <h5 class="font-weight-light">Check out the repository for it here:</h5>
+  				<div style="height:10px"></div>
+  				<!--Social Media Icons -->
+  				<div class="box">
+  					<a class="fa fa-github fa-lg" style="user-select: auto;" href="https://github.com/kangyeelim/flaskslack"></a>
+  				</div>
+          <h3 class="font-weight-light" style="text-align:center; margin-bottom:30px; margin-top:30px;"><span class="u--highlight" id="smaller-highlight">Restaurant Site</span></h3>
+          <img style="height:600px" src="images/menu.png" class="d-block w-100" alt="...">
+  				<!--description-->
+  				<p class="lead">This is a website that allows customers to place personalised orders on food. It has an admin page for
+          the restaurant owner to access and check orders and update orders as well. This website is made using the Django framework and
+          it stores data on users, items in the menu and orders on sqlite.</p>
+          <h5 class="font-weight-light">Check out the repository for it here:</h5>
+  				<div style="height:10px"></div>
+  				<!--Social Media Icons -->
+  				<div class="box">
+  					<a class="fa fa-github fa-lg" style="user-select: auto;" href="https://github.com/kangyeelim/restaurant-site"></a>
+  				</div>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>
