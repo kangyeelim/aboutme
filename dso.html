@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="illuminatesg.css">
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<html>
+    <head>
+        <title>My Webpage</title>
+    </head>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow">
+	    <div class="container">
+			<a class="navbar-brand" href="#"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="education.html">Education
+
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="experience.html">Experiences
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contactme.html">Contact Me</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	 <body>
+		<div class="container">
+			<div class="card border-0 shadow my-5">
+				<div class="card-body p-5">
+          <h1 class="font-weight-light" style="text-align:center; margin-bottom:30px;"><span class="u--highlight">DSO Internship Experience</span></h1>
+          <img style="height:600px; margin-bottom:50px;" src="images/dsoreport.png" class="d-block w-100" alt="...">
+  				<p class="lead">I had the opportunity to intern in DSO in my year 1 summer vacation period where I worked in a team under the
+            Electronic Systems division, under a project called Accelerating Compute Intensive Signal Processing Algorithms. I worked to convert
+            signal processing algorithms that the research team had done in MATLAB to C++ to accelerate it since C++ was a compiled language and the
+            team needed it to be in C++ to integrate with other modules. Since MATLAB had a lot of precompiled functions from their toolbox, I had
+            to research on how the algorithms worked. I also made use of OpenMP to use multithreading to improve the speed.</p>
+          <p class="lead">The first algorithm is part of a signal detection process and it performs estimation of the noise floor level from the
+            input wideband signal data using a moving window. The noise floor level helps to detect the presence of transmitted signal that would
+            require further processing.</p>
+          <p class="lead">The second program generates signal data through modulation then up-sampling, filtering and down-sampling before interpolating
+            and normalising the input data. The digital data undergoes a modulation function of ‘pskmod’ or ‘qammod’ in MATLAB which stands
+            for ‘Phase Shift Keying (PSK) Modulation’ and ‘Quadrature Amplitude Modulation (QAM)’ respectively.
+            The digital data is converted to complex number data according to the constellation plot. For filtering,
+            I also had to implement the Rational transfer function for the low pass filter that attenuates unwanted frequency content. Lastly, I had to implement
+            the interpolate function returns interpolated values of a 1-D function at specific query points using linear interpolation.</p>
+          <p class="lead">My last task was developing the instrument drivers for communication and control of the PXI peripherals which would be used for testing and measurement.
+            One of the program was for a digitizer card, to acquire and capture data from the input waveform from a waveform generator.</p>
+            <p class="lead">Through this experience, I learnt to be resourceful and independent in the way I approached my challenges. Since most parts of the tasks
+              were new and unfamiliar to me as I had no prior knowledge on signal processing or OpenMP, I had to do a lot of reading, researching and watching tutorials online to
+              understand what the algorithms were doing and then get a grasp of how I was going to optimise the algorithms through some of the methods that my supervisor suggested I try or what
+              I found online.
+              It was especially important when I had difficulties and it also pushed me to improve my problem solving skills by using what was available to me to figure out what went wrong.
+               I definitely learnt how to code in C++ better and gained a greater understanding of MATLAB code as well. I was also given a chance to learn about the domain of signal
+               processing. My supervisor also gave some tips on how to better structure my project’s
+               classes or functions such that the program I wrote would be reusable by different data files and more practical to be used to scale up to process more data files. Lastly,
+                I learnt some methods on how to accelerate algorithms using different methods like using a more efficient self-implemented sorting method than the generic sort from the C++
+                standard library, exploring other methods available in the different standard libraries and multithreading using what was found in the OpenMP API.
+            </p>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>
