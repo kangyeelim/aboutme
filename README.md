@@ -1,5 +1,5 @@
 # AboutMe
-This is a simple website to know more about my experiences and qualifications.
+This is a simple portfolio website to know more about my experiences and qualifications.
 In the website, I have detailed my:
 
 - Education journey and qualifications
