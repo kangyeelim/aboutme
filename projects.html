@@ -2,13 +2,10 @@
 <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="css/index.css">
-<link rel="stylesheet" href="css/illuminatesg.css">
 <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
 <html>
     <head>
         <title>My Webpage</title>
@@ -30,7 +27,8 @@
 						</a>
 					</li>
           <li class="nav-item active">
-            <a class="nav-link" href="projects.html">Projects
+            <a class="nav-link" href="#">Projects
+              <span class="sr-only">(current)</span>
             </a>
           </li>
 					<li class="nav-item">
@@ -44,25 +42,61 @@
 			</div>
 		</div>
 	</nav>
-	 <body>
+
+    <body>
 		<div class="container">
 			<div class="card border-0 shadow my-5">
 				<div class="card-body p-5">
-          <h1 class="font-weight-light" style="text-align:center"><span class="u--highlight">treasurerPro Desktop App</span></h1>
-          <img style="height:700px" src="images/tP.png" class="d-block w-100" alt="...">
-  				<p class="lead">This is a project I did with 4 other team mates in the <span class="u--highlight" id="smaller-highlight">Software Engineering
-             module CS2103T</span>. We were tasked
-          to create a command line interface application using <span class="u--highlight" id="smaller-highlight">Java and JavaFX</span>
-           that makes use of <span class="u--highlight" id="smaller-highlight">Travis CI</span>. We were allowed to either morph an existing
-          Addressbook application or extend it. We chose to morph it to be part of our application
-          which helps to allow treasurers to key in data to store and keep track of reimbursements, inventory and member information.
-          It also allows budgeting and planning of expenses with simple visualisations of data. To ensure the app worked as intended, we also
-          ensured <span class="u--highlight" id="smaller-highlight">at least 80% code coverage for the testing</span> and
-          for better code readibility and reusability, we ensured we had a<span class="u--highlight" id="smaller-highlight"> A grade code quality</span>.
-           The application does not use databases but
-          can be easily extended to do so and is currently using json and text files to store the data.</p>
-  				<h5 class="font-weight-light">Check out the repository for it here:</h5>
-  				<a class="fa fa-github fa-lg" style="user-select: auto; margin-top:10px;" href="https://github.com/kangyeelim/main"></a>
+					<h1 class="font-weight-light" style="text-align:center"><span class="u--highlight">My projects</span></h1>
+					<div style="height: 40px;"></div>
+					<div class="container">
+						<div class="row">
+              <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+									<img src="images/react.jpg" class="card-img-top" alt="Education">
+									<div class="card-body">
+										<h5 class="card-title">React Web Apps</h5>
+										<p class="card-text">Web programming projects made with React.</p>
+										<a href="react.html" class="btn btn-primary">Learn more</a>
+									</div>
+								</div>
+              </div>
+              <div class="col-sm">
+								<div class="card" style="width: 18rem;">
+									<img src="images/fldj.jpg" class="card-img-top" alt="Education">
+									<div class="card-body">
+										<h5 class="card-title">Flask/Django Web Apps</h5>
+										<p class="card-text">Web programming projects using Python and Javascript.</p>
+										<a href="pythonweb.html" class="btn btn-primary">Learn more</a>
+									</div>
+								</div>
+							</div>
+              <div class="col-sm">
+								<div class="card" style="width: 18rem;">
+									<img src="images/rn.png" class="card-img-top" alt="Education">
+									<div class="card-body">
+										<h5 class="card-title">React Native Mobile Apps</h5>
+										<p class="card-text">React Native mobile application projects.</p>
+										<a href="rn.html" class="btn btn-primary">Learn more</a>
+									</div>
+								</div>
+							</div>
+              <div class="col-sm">
+								<div class="card" style="width: 18rem;">
+									<img src="images/tP.png" class="card-img-top" alt="Education">
+									<div class="card-body">
+										<h5 class="card-title">treasurerPro</h5>
+										<p class="card-text">A desktop application to make work easier for treasurers.</p>
+										<a href="tP.html" class="btn btn-primary">Learn more</a>
+									</div>
+								</div>
+							</div>
+              <div class="col-sm">
+              </div>
+              <div class="col-sm">
+              </div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

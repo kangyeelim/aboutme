@@ -8,6 +8,9 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script src="css/swipebox/lib/jquery-2.0.3.js"></script>
+<script src="css/swipebox/src/js/jquery.swipebox.js"></script>
+<link rel="stylesheet" href="css/swipebox/src/css/swipebox.css">
 
 <html>
     <head>
@@ -27,9 +30,12 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="education.html">Education
-
 						</a>
 					</li>
+          <li class="nav-item active">
+            <a class="nav-link" href="projects.html">Projects
+            </a>
+          </li>
 					<li class="nav-item">
 						<a class="nav-link" href="experience.html">Experiences
 						</a>
@@ -55,11 +61,13 @@
             buy, sell or share merchandise related to the artist. To identify people as true fans, they can take a quiz which upon completion allows them to input their
             social media account username in the Hall of Fame Tab so that others can verify their identity as true fans and not scalpers or scammers. There is a page that allows
             listening to music and searching of song lyrics as well. The music tabs uses Deezer's music player widget and some APIs from various sources for retrieving song lyrics.
-            This project is made with the MongoDB, Express, React, Nodejs (MERN) stack along with React Redux. The images for posts are uploaded and hosted on Cloudinary and all the data are stored using MongoDB.
-            I also made use of tensorflow's toxicity model node module for natural language processing to check for hate speech in the text for posts and a node module for images to check for
-            obscene images which are removed from the Community Tab. To improve the performance of the loading of posts, a virtualised list node module was used as well. Lastly,
-            React Spring was used to create simple animations of elements.</p>
-          <h5 class="font-weight-light">Check out the repository for it here:</h5>
+            This project is made with the <span class="u--highlight" id="smaller-highlight">MongoDB, Express, React, Nodejs (MERN) stack</span> along with <span class="u--highlight" id="smaller-highlight">React Redux</span>.
+            The images for posts are uploaded and hosted on <span class="u--highlight" id="smaller-highlight">Cloudinary</span> and all the data are stored using MongoDB.
+            I also made use of <span class="u--highlight" id="smaller-highlight">tensorflow's toxicity model node module</span> for natural language processing to check for hate speech in the text for posts and a node module for images to check for
+            obscene images which are removed from the Community Tab. To improve the performance of the loading of posts, a <span class="u--highlight" id="smaller-highlight">
+              virtualised list node module</span> was used as well. Lastly,
+          <span class="u--highlight" id="smaller-highlight">React Spring</span> was used to create simple animations of elements.</p>
+          <h5 class="font-weight-light" style="margin-top:10px">Check out the repository for it here:</h5>
   				<div style="height:10px"></div>
   				<!--Social Media Icons -->
   				<div class="box">

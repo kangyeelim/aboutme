@@ -77,7 +77,7 @@ img {
 
 .self-intro {
   position: relative;
-  background-color: #f7f7f7;
+  background-color: var(--bg-color);
   margin: -48px;
   margin-top: 50px;
   padding-left:50px;
@@ -88,6 +88,16 @@ img {
 }
 
 .info-cards {
+  position: relative;
+  background-color: var(--bg-color);
+  margin: -48px;
+  margin-top: 50px;
+  padding-left:50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .intro__image {
@@ -139,7 +149,7 @@ img {
     color: whitesmoke;
     transition: background .6s ease;
     box-shadow: var(--box-shadow);
-    border-color: var(--bg-color);
+    border-color: var(--primary-color3);
 }
 
 .btn-primary:hover{
@@ -147,14 +157,4 @@ img {
     background-clip: padding-box;
     color: black;
     border-color: gray;
-}
-
-.btn-primary::after {
-    position: absolute;
-    top: -2px; left: -2px;
-    bottom: -2px;  right: -2px;
-    background: var(--gradient-color);
-    content: ' ';
-    z-index: -1;
-    border-radius: 4px;
 }
