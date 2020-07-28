@@ -77,7 +77,11 @@ img {
 
 .self-intro {
   position: relative;
+<<<<<<< HEAD
   background-color: var(--bg-color);
+=======
+  background-color: #f7f7f7;
+>>>>>>> 8bd6b9b450a8384f3bf40a413791a6f9813c204d
   margin: -48px;
   margin-top: 50px;
   padding-left:50px;
@@ -88,6 +92,7 @@ img {
 }
 
 .info-cards {
+<<<<<<< HEAD
   position: relative;
   background-color: var(--bg-color);
   margin: -48px;
@@ -98,6 +103,8 @@ img {
   padding-bottom: 80px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+=======
+>>>>>>> 8bd6b9b450a8384f3bf40a413791a6f9813c204d
 }
 
 .intro__image {
@@ -149,7 +156,11 @@ img {
     color: whitesmoke;
     transition: background .6s ease;
     box-shadow: var(--box-shadow);
+<<<<<<< HEAD
     border-color: var(--primary-color3);
+=======
+    border-color: var(--bg-color);
+>>>>>>> 8bd6b9b450a8384f3bf40a413791a6f9813c204d
 }
 
 .btn-primary:hover{
@@ -158,3 +169,16 @@ img {
     color: black;
     border-color: gray;
 }
+<<<<<<< HEAD
+=======
+
+.btn-primary::after {
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px;  right: -2px;
+    background: var(--gradient-color);
+    content: ' ';
+    z-index: -1;
+    border-radius: 4px;
+}
+>>>>>>> 8bd6b9b450a8384f3bf40a413791a6f9813c204d
