@@ -1,3 +1,5 @@
+@import url(./globals.css);
+
 body {
   background: url('../images/webbg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -12,13 +14,13 @@ body {
 
 #smaller-highlight {
   user-select: auto;
-  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #fff5ba 65%);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, var(--primary-color2) 65%);
   display: inline;
 }
 
 .u--highlight {
   user-select: auto;
-  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #ffd4b8 65%);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, var(--primary-color) 65%);
   display: inline;
 }
 
@@ -59,7 +61,7 @@ img {
 }
 
 .section__subtitle--intro {
-    background: #ffbaab;
+    background: var(--primary-color3);
     font-size: 1.25em;
     margin-bottom: 20px;
     display: inline-block;
@@ -129,4 +131,30 @@ img {
 
 .card {
   margin-top: 20px;
+}
+
+.btn-primary {
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+    border-color: var(--bg-color);
+}
+
+.btn-primary:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+    border-color: gray;
+}
+
+.btn-primary::after {
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px;  right: -2px;
+    background: var(--gradient-color);
+    content: ' ';
+    z-index: -1;
+    border-radius: 4px;
 }
