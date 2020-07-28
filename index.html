@@ -3,13 +3,15 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="css/index.css">
 <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <html>
-    <head>
-        <title>My Webpage</title>
-    </head>
+  <head>
+    <title>My Webpage</title>
+  </head>
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow">
 	    <div class="container">
@@ -39,20 +41,26 @@
 				</ul>
 			</div>
 		</div>
-	</nav>
-    <body>
-      <div class="container" id="main-container">
-        <div class="card border-0 shadow my-5">
-          <div class="card-body p-5">
-            <!-- Introduction -->
-            <section class="intro" id="home">
+  </nav>
+  <body>
+    <div class="container" id="main-container">
+      <div class="card border-0 shadow my-5">
+        <div class="card-body p-5">
+          <!-- Introduction -->
+          <div data-aos="fade-up">
+
+          <section class="intro" id="home">
                 <h1 class="display-4 section__title section__title--intro">
                     Hi, I am <strong>Lim Kang Yee</strong>
                 </h1>
+              <div data-aos="fade-right">
                 <p class="lead section__subtitle section__subtitle--intro">NUS Computer Science Student</p>
+              </div>
                 <img src="images/greenery.jpg" class="intro__image" alt="Kang Yee Photo">
             </section>
-            <section class="self-intro">
+          </div>
+          <section class="self-intro">
+            <div data-aos="fade-right">
               <h3 class="font-weight-light" style="margin-top:50px"><span class="u--highlight">Who I am.</span></h3>
                 <p class="lead"> I am a Year 3 student from
                 the National University of Singapore.
@@ -64,7 +72,9 @@
                 about <span class="u--highlight" id="smaller-highlight">positive changes</span> in the future through my work.
               </p>
               <a href="./files/resume.pdf" class="btn btn-primary" style="margin-top:20px">View CV</a>
-            </section>
+            </div>
+          </section>
+          <div data-aos="fade-left">
             <section class="summary" style="text-align:right;">
               <h3 class="font-weight-light" style="margin-top:50px; text-align:right"><span class="u--highlight">What I do.</span></h3>
                 <p class="lead" style="text-align:right"> I am specialising in software development with computer security. I enjoy
@@ -77,7 +87,9 @@
                 in a student-led project, IlluminateSG.</p>
                 <a href="projects.html" class="btn btn-primary" style="float: inherit; margin-top:20px">View Projects</a>
             </section>
-            <section class="info-cards" id="intro-cards">
+          </div>
+          <section class="info-cards" id="intro-cards">
+            <div data-aos="fade-up">
               <h3 class="font-weight-light" style="margin-top:50px"><span class="u--highlight">Learn more about me.</span></h3>
               <div class="row">
                 <div class="col-sm">
@@ -111,9 +123,13 @@
                   </div>
                 </div>
               </div>
-            </section>
-          </div>
+            </div>
+          </section>
         </div>
       </div>
-    </body>
+    </div>
+  </body>
+  <script>
+    AOS.init();
+  </script>
 </html>

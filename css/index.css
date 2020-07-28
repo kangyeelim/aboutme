@@ -129,8 +129,10 @@ img {
     grid-row: 2;
     text-align: right;
     position: relative;
-    left: -1.5em;
-    width: calc(100% + 1.5em);
+    margin-left: calc(-350px - 2.5em);
+    /*left: -1.5em;
+    width: calc(100% + 1.5em);*/
+    width: calc(350px + 100% + 2.5em);
     padding-right: 10px;
   }
 
