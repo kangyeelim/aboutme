@@ -149,6 +149,14 @@ img {
   .card__page {
     max-width: calc(100%);
   }
+
+  td {
+    font-size: 12px;
+  }
+
+  th {
+    font-size: 12px;
+  }
 }
 
 
