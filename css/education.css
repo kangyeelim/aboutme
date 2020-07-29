@@ -31,7 +31,7 @@ table {
 .info {
 	position: relative;
   background-color: var(--bg-color);
-  margin: -48px;
+	margin: -48px;
   margin-top: 50px;
   padding-left:50px;
   padding-right: 50px;
