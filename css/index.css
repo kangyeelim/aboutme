@@ -93,14 +93,31 @@ img {
 .info-cards {
   position: relative;
   background-color: var(--bg-color);
-  margin: -48px;
+  margin-left: -48px;
+  margin-right: -48px;
+  /*margin-bottom: -45px;*/
   margin-top: 50px;
   padding-left:50px;
   padding-right: 50px;
   padding-top: 10px;
   padding-bottom: 80px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+}
+
+@media(max-width:440px) {
+  .info-cards {
+    position: relative;
+    background-color: var(--bg-color);
+    margin-left: -48px;
+    margin-right: -48px;
+    margin-bottom: -30px;
+    margin-top: 50px;
+    padding-left:50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
 }
 
 .intro__image {
@@ -184,8 +201,6 @@ img {
     left:43px;
   }
 }
-
-
 
 .btn-primary {
     background: var(--gradient-color);
