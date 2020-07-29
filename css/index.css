@@ -159,6 +159,30 @@ img {
   }
 }
 
+@media(min-width:441px) {
+  .card__page {
+    width:304px;
+  }
+}
+
+@media(max-width:340px) {
+  #email {
+    position: absolute;
+    margin-top: 20px;
+    left:43px;
+  }
+}
+
+@media(max-width:280px) {
+  #email {
+    font-size: 12px;
+    position: absolute;
+    margin-top: 20px;
+    left:43px;
+  }
+}
+
+
 
 .btn-primary {
     background: var(--gradient-color);
