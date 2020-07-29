@@ -17,7 +17,7 @@ html, body{
     --darker-gradient: linear-gradient(90deg, #ff8f8f 0%, #ff9645 100%);
     --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3);
     --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
-    --full-bg-color: #392f3a;
+    --full-bg-color: #221e2b;
   }
 
 
