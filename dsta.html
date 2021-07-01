@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/illuminatesg.css">
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<html>
+    <head>
+        <title>My Webpage</title>
+    </head>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow">
+	    <div class="container">
+			<a class="navbar-brand" href="#"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="education.html">Education
+						</a>
+					</li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects
+            </a>
+          </li>
+					<li class="nav-item active">
+						<a class="nav-link" href="experience.html">Experiences
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contactme.html">Contact Me</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	 <body>
+		<div class="container">
+			<div class="card border-0 shadow my-5">
+				<div class="card-body p-5">
+          <h1 class="font-weight-light" style="text-align:center; margin-bottom:30px;"><span class="u--highlight">DSTA Internship Experience</span></h1>
+          <img data-enlargeable style="cursor: zoom-in; height:600px; margin-bottom:50px;" src="images/dstareport.png" class="d-block w-100" alt="...">
+  				<p class="lead">I had the opportunity to intern in DSTA for my year 3 semester 2 as part of my Advanced Technology Attachment Programme
+             where I worked under the Enterprise IT Programme Centre, under a project called Digital Apps. I worked to
+             create a <span class="u--highlight" id="smaller-highlight">virtual assistant/chatbot prototype</span>
+             as a module for one of their apps. The app was a employee app so the virtual assistant sought to aid the employee in navigating the app and fulfilling repetitive tasks
+             to improve workplace productivity. Before developing the prototype, I joined user meetings and I researched on various Machine Learning models and chatbot development tools.</p>
+          <p class="lead">Prototype 1 was a bespoke chatbot created by training various <span class="u--highlight" id="smaller-highlight">Machine Learning models using Keras, tensorflow </span>
+            to be able to do intent classification and sentiment analysis. Named entity recognition was also done using simpler methods like Regex and a rules-based
+          intent classification was added to speed up the response process. Then, I used a pre-trained model called DialoGPT by Microsoft which was trained using the Huggingface Transformer model
+          which provided a way to give responses to Smalltalk.
+          I built the protoype using Flask and also included an <span class="u--highlight" id="smaller-highlight">Admin Console</span>
+           so that as user inputs were stored in the database (MongoDB), unanswered or wrongly responded inputs could be tagged by admins to re-train the models to improve response accuracy in the future.</p>
+          <p class="lead">For protoype 2, I explored other cloud offerings to build the chatbot. I used <span class="u--highlight" id="smaller-highlight">Google Dialogflow and Amazon Lex</span> to create simple chatbots to understand their advantages and disadvantages.
+          I then decided to use the Amazon Lex service to build the prototype since the company mainly worked with AWS. <span class="u--highlight" id="smaller-highlight">Using AWS SAM framework, boto3 library</span>, I managed to build the
+          chatbot and deploy it on AWS Lambda as a REST API. The Smalltalk module was also<span class="u--highlight" id="smaller-highlight"> deployed on DigitalOcean's Ubuntu Docker Droplet</span> after the Smalltalk module was dockerized as images.
+          Lastly, another REST API was built using Flask for the various actions to store and retrieve data from a database to mock the actual database for resource booking. These all act as microservices that are independent in their
+          tech stack and can be maintained by different teams but be used by a single chatbot service.</p>
+            <p class="lead">Through this experience, I managed to learn more about Machine Learning and chatbot development. Since most parts of the tasks
+              were new and unfamiliar to me, I had to do a lot of reading, researching and watching tutorials online to
+              understand the pros and cons of various ML models, what would work for this project which lacked actual user input data and how to strcuture a bespoke chatbot built from scratch.
+              I also took the opportunity to learn more about devOps tools like Docker and deployment methods through AWS, DigitalOcean which I believe would be beneficial for me as I move on to
+              larger projects in the future.
+            </p>
+				</div>
+			</div>
+		</div>
+    </body>
+    <script type="text/javascript" src="scripts/img-fullscreen.js"></script>
+</html>
